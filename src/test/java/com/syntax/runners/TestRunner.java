@@ -6,8 +6,9 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features= {"src/test/resources/features"}
-				, glue= {"com/syntax/stepDefinitions"}
+@CucumberOptions(features= {"src/test/resources/features/Employee.feature"}
+				
+				, glue= {"com.syntax.stepDefinitions"}
 				, dryRun=false)
 
 public class TestRunner {
